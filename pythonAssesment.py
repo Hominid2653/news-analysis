@@ -1,5 +1,3 @@
-# pythonAssessment.py
-
 import re
 
 
@@ -91,7 +89,7 @@ def count_sentences(text):
     return count
 
 
-# MAIN
+# MAIN PROGRAM
 
 try:
     with open("news_article.txt", "r", encoding="utf-8") as file:
